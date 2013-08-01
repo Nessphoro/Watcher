@@ -1,0 +1,22 @@
+﻿Please read the attached licesed statement.
+
+Quick start:
+Here is a quick way to get this thing to work:
+1.Compile
+2.Run
+3.???
+4.Profit!!!
+
+Really, though here is the legit thing:
+Your OS folder should have two sub-folders 'source' and 'obj'
+source is monitored for the code and used for makefile gen,
+obj is the output dir for object files and the dependency files.
+
+Also, the source folder is treated as the include folder.
+On source file rename/delete the needed changes will be reflect, if running in the continous mode.
+Don't forget to set the path of the OS folder, either in the code, or in the console by "set C:\your\os\path" which contains the source and obj folders.
+
+Final disclaimer:
+I think it should work for on linux, as the program was written to work with cygwin ( mainly using the unix path notation), and most of the code does use that convention or
+ is otherwise agnostic of that matter.
+But for some critical sections, it might not work.
