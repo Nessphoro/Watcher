@@ -13,7 +13,7 @@ source is monitored for the code and used for makefile gen,
 obj is the output dir for object files and the dependency files.
 
 Also, the source folder is treated as the include folder.
-On source file rename/delete the needed changes will be reflect, if running in the continous mode.
+On source file rename/delete the needed changes will be reflected, if running in the continous mode.
 Don't forget to set the path of the OS folder, either in the code, or in the console by "set C:\your\os\path" which contains the source and obj folders.
 
 Final disclaimer:
